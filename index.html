@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>base</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" media="screen" type="text/css" href="style.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+    
+        <div id="app" class="container">
+            <h2>{{ title }} 
+                <input v-model="autor" v-on:keyup.enter="getData(autor)" placeholder="modifiez-moi"> 
+                <button v-on:click="getData(autor)">Chercher</button>
+            </h2>
+            <p v-for="item in posts">
+                <a data-bind="attr: { href: {{item.saleInfo.buyLink}} }">{{item.volumeInfo.title}}</a>
+                <a href='{{item.saleInfo.buyLink}}'>{{item.volumeInfo.title}}</a><br>
+                Date de parution : {{item.volumeInfo.publishedDate}}<br>
+                Résumé : {{item.volumeInfo.description}}<br>
+                <img src={{item.volumeInfo.imageLinks.smallThumbnail}}><br>
+
+            </p>
+        </div>
+        
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
