@@ -7,7 +7,7 @@
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
-Javascript project of the semester 3 of IUT science of computer, creation of the Yahtzee game in JS.
+Javascript exercise of the semester 3 of IUT science of computer, creation of a web page in VueJS exploring the possibilities of the Google Book API.
 
 ![#ffa500](https://placehold.it/15/ffa500/000000?text=+)   *Ongoing project*
 
@@ -37,7 +37,7 @@ Javascript project of the semester 3 of IUT science of computer, creation of the
     
 | Release | Description | Release date |
 | ------- | ----------- | ------------ |
-|  1.0.0  | Finalization of the project | Apr. 16 2019 |
+|  1.0.0  | Finalization of the project | Nov. 18 2019 |
     
 ## License
 
