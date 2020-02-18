@@ -9,7 +9,7 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 Javascript exercise of the semester 3 of IUT science of computer, creation of a web page in VueJS exploring the possibilities of the Google Book API.
 
-![#ffa500](https://placehold.it/15/ffa500/000000?text=+)   *Ongoing project*
+![#008000](https://placehold.it/15/008000/000000?text=+)   *Project completed*
 
 ## Prerequisites
 
